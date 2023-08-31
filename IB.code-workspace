@@ -1,0 +1,17 @@
+{
+	"folders": [
+        {
+            "name": "Rust",
+            "path": "Rust"
+        },
+        {
+            "name": "Java",
+            "path": "Java"
+        },
+        {
+            "name": "IB",
+            "path": "."
+        }
+    ],
+    "settings": {}
+}

@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 fn main() {
     // Use Heron's formula to calculate the area of a triangle

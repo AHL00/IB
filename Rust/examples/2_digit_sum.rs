@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let num: i32 = input("Input a number: ");

@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let square_side = input::<f32>("Enter the side of the square: ");

@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 fn main() {
     // (1, 1) is black

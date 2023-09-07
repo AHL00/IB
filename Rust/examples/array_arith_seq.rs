@@ -1,5 +1,5 @@
 // Given A and D, fill an array with N terms
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let a: i32 = input("Enter A: ");

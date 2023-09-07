@@ -66,7 +66,7 @@ dependencies = [
 name = "ib"
 version = "0.1.0"
 dependencies = [
- "crossterm",
+ "painless_input",
  "rand",
 ]
 
@@ -102,6 +102,15 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys",
+]
+
+[[package]]
+name = "painless_input"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2dbfea7e43c47ec0d2d8cce1926816596b4a9036cb5c0d9bf4ed20423722e813"
+dependencies = [
+ "crossterm",
 ]
 
 [[package]]

@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 fn main() {
     // A^0 + A^1 + A^2 + ... + A^n

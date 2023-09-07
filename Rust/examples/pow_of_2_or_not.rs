@@ -1,4 +1,4 @@
-use ib::input;
+use painless_input::input;
 
 // I know this is not the smallest version of the code but I added
 // edge cases to make it more efficient in some cases

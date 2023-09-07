@@ -1,6 +1,6 @@
 // 1.1 - 1.2 + 1.3 - 1.4
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let n = input::<i32>("Input n: ");

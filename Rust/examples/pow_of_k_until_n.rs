@@ -1,6 +1,6 @@
 // 1^k + 2^k + ... + n^k
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let n = input::<i32>("Input n: ");

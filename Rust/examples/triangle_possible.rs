@@ -1,7 +1,7 @@
 // Homework for 31/8/2023
 // Triangle possible given three sides?
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let a = input::<i32>("Side a: ");

@@ -1,6 +1,6 @@
 // Given A, B, C, find the largest
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let a = input::<i32>("Input a: ");

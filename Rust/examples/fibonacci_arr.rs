@@ -1,4 +1,4 @@
-use ib::inputln;
+use painless_input::inputln;
 
 fn main() {
     let n: i32 = inputln("Enter n: ");

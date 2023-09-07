@@ -1,6 +1,6 @@
 // Given N, find N factorial
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let mut start = 1;

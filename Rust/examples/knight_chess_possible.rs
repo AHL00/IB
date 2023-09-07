@@ -1,7 +1,7 @@
 // Homework for 31/8/2023
 // Given the coords of two points on a chess board, a knight can perform the move
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let (x1, y1) = (

@@ -1,7 +1,7 @@
 // 3^k > n
 // Smallest k
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let n = input::<u128>("Input n: ");

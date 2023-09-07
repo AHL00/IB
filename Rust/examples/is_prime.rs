@@ -2,7 +2,7 @@
 
 use std::thread::JoinHandle;
 
-use ib::input;
+use painless_input::input;
 
 // Benches
 // Starting threads takes 4 ms

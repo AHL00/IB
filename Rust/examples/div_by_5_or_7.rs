@@ -1,7 +1,7 @@
 // Homework for 31/8/2023
 // Check if a number is divisible by 5 or 7
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let num = input::<i32>("Enter a number: ");

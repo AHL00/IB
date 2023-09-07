@@ -1,4 +1,4 @@
-use ib::input_array;
+use painless_input::input_array;
 
 fn main() {
     let arr: Vec<i32> = input_array("Enter array: ");

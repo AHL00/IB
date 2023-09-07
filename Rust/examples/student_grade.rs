@@ -3,7 +3,7 @@
 // >25 = C
 // >0 = D
 
-use ib::input;
+use painless_input::input;
 
 fn main() {
     let score = input::<f32>("Input a score: ");

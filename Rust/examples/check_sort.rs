@@ -1,25 +1,7 @@
 // Check if a given array is sorted, either ascending or descending.
-use ib::input;
 
 fn main() {
-    let mut arr;
-
-    println!("Input test case: \n 1. Ascending \n 2. Descending \n 3. Random");
-
-    let test_case: i32 = input("Enter test case: ");
-
-    match test_case {
-        1 => arr = [1, 2, 3, 4, 5],
-        2 => arr = [5, 4, 3, 2, 1],
-        3 => {
-            arr = [0; 5];
-
-            for i in 0..5 {
-                arr[i] = rand::random::<i16>() as i32;
-            }
-        },
-        _ => panic!("Invalid test case"),
-    }
+    let arr= [12, 34, 56, 78, 90, 87, 65, 43, 21];
 
     println!("\nTesting: {:?}\n", arr);
 

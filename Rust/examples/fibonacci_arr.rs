@@ -1,8 +1,8 @@
-use painless_input::inputln;
+use painless_input::input;
 
 fn main() {
-    let n: i32 = inputln("Enter n: ");
-
+    let n: i32 = input("Enter n: ");
+    println!();
     // This is a rust feature called "list comprehension"
     // It is equivalent to the following:
         // let mut arr: Vec<i32> = Vec::new();
